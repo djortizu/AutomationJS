@@ -41,4 +41,4 @@ PageObjects are housed in the 'pages' folder.
 ### How to run the test cases
 Node.JS must be installed, along with CodeceptJS and Puppeteer.<br>
 Once that is done, navigate via the terminal window in VSCode using the following command:<br>
->npx codeceptjs run --features='./features/<featureName>.feature'
+>npx codeceptjs run --features='./features/featureName.feature'
