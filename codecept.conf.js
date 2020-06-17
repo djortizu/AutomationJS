@@ -12,7 +12,6 @@ exports.config = {
     I: './steps_file.js',
     homePage: './pages/Home.js',
     formPage: './pages/Form.js',
-    erroPage: './pages/Error.js',
     helloPage: './pages/Hello.js',
   },
   mocha: {},

@@ -1,6 +1,6 @@
 const { assert } = require("console");
 
-const { I, errorPage, homePage } = inject();
+const { I, homePage } = inject();
 const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 //#region Scenario No. 1
