@@ -35,5 +35,10 @@ PageObjects are housed in the 'pages' folder.
 3. Error Page -- errorPage.feature
 
 **Page Objects**
-1. Home
-2. Form
+1. Home -- Home.js
+2. Form -- Form.js
+
+### How to run the test cases
+Node.JS must be installed, along with CodeceptJS and Puppeteer.<br>
+Once that is done, navigate via the terminal window in VSCode using the following command:<br>
+>npx codeceptjs run --features='./features/<featureName>.feature'
